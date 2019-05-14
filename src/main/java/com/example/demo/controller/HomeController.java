@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="")
 public class HomeController {
 
-    @GetMapping(value = "e")
+    @GetMapping(value = "")
     public ResponseEntity<?> me() {
         return ResponseEntity.ok("deneme1");
     }
