@@ -13,6 +13,6 @@ public class HomeController {
 
     @GetMapping(value = "")
     public ResponseEntity<?> me() {
-        return ResponseEntity.ok("deneme1");
+        return ResponseEntity.ok("deneme2");
     }
 }
